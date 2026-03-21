@@ -1,90 +1,66 @@
-# 🌊 FloodSense AI: Smart Agro Advisory
+# 🌊 FloodSense AI: Smart Agro Advisory System
 
-[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit)](https://streamlit.io)
-[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)](https://python.org)
+[![Live App](https://img.shields.io/badge/🚀%20Live%20App-Open-success?style=for-the-badge)](https://floodsense-ai-agro-g24ucjzzqzz8xcxikmclqm.streamlit.app/)
+[![User Guide](https://img.shields.io/badge/📘%20User%20Guide-View-blue?style=for-the-badge)](https://scribehow.com/viewer/Use_FloodSense_AI_for_Flood_Risk_and_Crop_Advice__I8AJDuHqTq2mlmO96wf0_Q)
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)]
+[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit)]
 [![ML](https://img.shields.io/badge/Machine%20Learning-Model-success?style=for-the-badge)]
-[![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)]
-
-🚀 **Live App:**  
-👉 https://floodsense-ai-axgfcwvxopy8yhdccdqhpp.streamlit.app/
 
 ---
 
 ## 🌍 Overview
 
-**FloodSense AI** is an AI-powered decision-support system that:
+**FloodSense AI** is a fully deployed AI-powered decision-support system that:
 
-- 🌧 Predicts **flood risk (Low → Severe)**  
-- 🌾 Recommends **optimal crops for farmers**  
-- 📊 Explains predictions using environmental factors  
+- 🌧 Predicts flood risk (Low → Severe)
+- 🌾 Recommends crops based on environmental conditions
+- 🧠 Explains predictions using key contributing factors
 
-Built using **Machine Learning + Streamlit**, this project focuses on **real-world impact in agriculture and climate resilience**.
+⚡ Fully deployed and publicly accessible AI system
 
 ---
 
-## 💡 Problem Statement
+## 🌐 Live Application
 
-Flooding affects millions of farmers every year.
+👉 https://floodsense-ai-agro-g24ucjzzqzz8xcxikmclqm.streamlit.app/
 
-Most tools:
-- Only predict floods ❌  
-- Don’t help farmers take action ❌  
+---
 
-👉 **FloodSense AI solves this gap** by providing:
-- prediction + explanation + crop advisory
+## 📘 User Guide
+
+Step-by-step walkthrough:
+
+👉 https://scribehow.com/viewer/Use_FloodSense_AI_for_Flood_Risk_and_Crop_Advice__I8AJDuHqTq2mlmO96wf0_Q
 
 ---
 
 ## 🧠 Features
 
-### 🌊 Flood Prediction
-- Multiclass ML model (Low, Moderate, High, Severe)
-- Uses 13 environmental + geographical features
+### 🌊 Flood Risk Prediction
+- Multiclass ML model
+- Risk levels: Low, Moderate, High, Severe
 
-### 📊 Explainability
-- Shows **why the prediction was made**
-- Highlights key contributing factors
+---
 
 ### 🌾 Crop Advisory System
-- Recommends crops based on:
-  - Soil type
-  - Rainfall
-  - Water level
-  - Flood risk
+- Suggests suitable crops based on:
+  - soil type
+  - rainfall
+  - flood risk
+  - water availability
+
+---
+
+### 📊 Explainable AI
+- Shows why a prediction was made
+- Highlights important environmental factors
+
+---
 
 ### 📈 Visual Insights
-- Confidence gauge  
-- Risk probability breakdown  
-- 7-day simulated trend  
-
-### 🗺️ Location Mapping
-- Displays prediction location on map  
-
----
-
-## 🏗️ Tech Stack
-
-- **Python**
-- **Streamlit** (UI & deployment) :contentReference[oaicite:0]{index=0}  
-- **Scikit-learn** (ML model)
-- **Pandas / NumPy**
-- **Plotly** (visualizations)
-
----
-
-## ⚙️ How It Works
-
-1. User inputs environmental data  
-2. Model predicts flood risk  
-3. System analyzes:
-   - rainfall  
-   - water level  
-   - elevation  
-   - soil type  
-4. Generates:
-   - prediction  
-   - explanation  
-   - crop recommendations  
+- Probability breakdown
+- Risk trends
+- Interactive UI
 
 ---
 
@@ -98,63 +74,49 @@ Most tools:
 - Water Level  
 - Elevation  
 - Population Density  
-- Infrastructure Index  
+- Infrastructure  
 - Historical Floods  
 - Land Cover  
 - Soil Type  
 
 ---
 
-## 🌾 Crop Advisory Logic
+## 🏗️ System Workflow
 
-The system combines:
-
-- Flood tolerance  
-- Soil compatibility  
-- Water availability  
-
-Example:
-
-| Condition | Recommendation |
-|----------|---------------|
-| High flood | Rice, Jute |
-| Low water | Millet, Sorghum |
-| Clay soil | Rice, Sugarcane |
+User Input → ML Model → Risk Prediction → Explanation → Crop Recommendation → UI
 
 ---
 
+## 🏆 Why This Project Stands Out
+
+- Real-world problem solving  
+- Deployed AI system  
+- Interdisciplinary (AI + Agriculture + Climate)  
+- User-friendly interface  
+- Complete documentation  
 
 ---
 
-## 🚀 Run Locally
+## ⚠️ Limitations
 
-```bash
-git clone https://github.com/your-username/floodsense-ai
-cd floodsense-ai
-pip install -r requirements.txt
-streamlit run src/app.py
----
-
+- Not a replacement for official forecasts  
+- Uses simulated advisory logic  
+- Real-world flooding depends on multiple external factors  
 
 ---
 
-## 📈 Future Improvements
+## 🚀 Future Improvements
 
-* 🌐 Integrate real-time weather APIs
-* 📍 Add map-based predictions (Google Maps / Leaflet)
-* 🤖 Improve model with larger real datasets
-* 📱 Mobile-first UI optimization
-* ⚠️ Add alert notification system
+- Real-time weather API  
+- Region-specific crop recommendations  
+- Mobile optimization  
 
 ---
 
 ## 👨‍💻 Author
 
-**Dev Sharma**
-Aspiring AI Engineer 🚀
-Building real-world AI + ML projects
-
----
+Dev Sharma  
+AI & Data Science Enthusiast 🚀
 
 ## ⭐ Why This Project Stands Out
 
